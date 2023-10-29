@@ -80,7 +80,10 @@ DATABASES = {
         'HOST': ''  # mặc định localhost
     }
 }
+<<<<<<< HEAD
 MEDIA_ROOT = '%s/courses/static/' % BASE_DIR
+=======
+>>>>>>> origin/main
 import pymysql
 pymysql.install_as_MySQLdb()
 
